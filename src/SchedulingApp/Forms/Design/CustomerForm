@@ -1,0 +1,37 @@
+Customer Management Form (Requirement A2)
++--------------------------------------------------+
+|            CUSTOMER MANAGEMENT                    |
+|--------------------------------------------------|
+| Search: [_______________] [Search] [Clear]        |
+|                                                  |
+| Customer List:                          Controls:|
+| +--------------------------------+     +--------+|
+| | ID | Name      | Phone    |City|     |[Add]   ||
+| |----|-----------|----------|-----|     |[Edit]  ||
+| | 1  | ABC Corp  | 555-1234 | NY |     |[Delete]||
+| | 2  | XYZ Inc   | 555-5678 | LA |     |        ||
+| | 3  | Tech Ltd  | 555-9012 | CHI|     |[Refresh]|
+| |    |           |          |    |     +--------+|
+| +--------------------------------+               |
+|                                                  |
+| Customer Details:                                |
+| +----------------------------------------------+ |
+| | Name:     [_______________________]         | |
+| | Phone:    [_______________________]         | |
+| | Address:  [_______________________]         | |
+| | City:     [_______________________]         | |
+| | Country:  [_______________________]         | |
+| | Postal:   [_______________________]         | |
+| | Active:   [x] Active                        | |
+| +----------------------------------------------+ |
+|                                                  |
+| [Save] [Cancel]              [Back to Main Menu] |
++--------------------------------------------------+
+Components:
+
+DataGridView: dgvCustomers
+TextBox: txtSearch
+GroupBox: grpCustomerDetails
+TextBoxes: txtName, txtPhone, txtAddress, txtCity, txtCountry, txtPostal
+CheckBox: chkActive
+Buttons: btnAdd, btnEdit, btnDelete, btnSave, btnCancel
