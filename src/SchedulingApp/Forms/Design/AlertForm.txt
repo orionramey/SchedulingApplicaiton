@@ -1,0 +1,16 @@
+Prio ==7==
+
+Alert/Notification Dialog (Requirement A6)
++----------------------------------+
+|     APPOINTMENT REMINDER         |
+|                                  |
+|    (!) You have an appointment   |
+|        in 15 minutes!            |
+|                                  |
+|  Customer: ABC Corporation       |
+|  Time: 2:15 PM                   |
+|  Type: Consultation              |
+|  Location: Conference Room A     |
+|                                  |
+|     [OK]    [View Details]       |
++----------------------------------+
