@@ -1,0 +1,49 @@
++--------------------------------------------------+
+|           APPOINTMENT SCHEDULING                  |
+|--------------------------------------------------|
+| Appointment Details:                             |
+| +----------------------------------------------+ |
+| | Customer:  [Select Customer      v]          | |
+| |                                              | |
+| | Title:     [_______________________]        | |
+| |                                              | |
+| | Type:      [Consultation        v]          | |
+| |            - Consultation                   | |
+| |            - Follow-up                      | |
+| |            - Initial Meeting                 | |
+| |                                              | |
+| | Location:  [_______________________]        | |
+| |                                              | |
+| | Date:      [MM/DD/YYYY] [Calendar Icon]     | |
+| |                                              | |
+| | Start Time: [HH:MM] [AM/PM v]               | |
+| | End Time:   [HH:MM] [AM/PM v]               | |
+| |                                              | |
+| | Description:                                 | |
+| | [                                   ]        | |
+| | [                                   ]        | |
+| | [_________________________________]        | |
+| |                                              | |
+| | Business Hours: 8:00 AM - 5:00 PM EST       | |
+| | Your Local Time: [Calculated display]        | |
+| +----------------------------------------------+ |
+|                                                  |
+| [Validate Time] [Save] [Cancel]                  |
+|                                                  |
+| [Error/Warning Messages Area]                    |
++--------------------------------------------------+
+
+
+Requirments to be met A3
+  
+Components:
+
+ComboBox: cboCustomer (populated from database)
+TextBox: txtTitle
+ComboBox: cboType
+TextBox: txtLocation
+DateTimePicker: dtpDate
+DateTimePicker: dtpStartTime, dtpEndTime
+TextBox: txtDescription (Multiline)
+Label: lblBusinessHours, lblLocalTime
+Buttons: btnValidate, btnSave, btnCancel
