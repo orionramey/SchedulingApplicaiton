@@ -1,0 +1,32 @@
+Main Dashboard/Menu
++--------------------------------------------------+
+| Global Scheduling System - [Username]     [Logout]|
+|--------------------------------------------------|
+| MENU BAR:                                        |
+| [Customers] [Appointments] [Calendar] [Reports]  |
+|--------------------------------------------------|
+|                                                  |
+|   Welcome, [Username]!                           |
+|                                                  |
+|   Quick Actions:                                 |
+|   +------------------+  +------------------+     |
+|   | Add Customer     |  | New Appointment  |     |
+|   | [icon]           |  | [icon]           |     |
+|   +------------------+  +------------------+     |
+|                                                  |
+|   Today's Appointments:                          |
+|   +--------------------------------------------+ |
+|   | Time  | Customer    | Type    | Location   | |
+|   |-------|-------------|---------|------------| |
+|   | 10:00 | ABC Corp    | Meeting | Room 1     | |
+|   | 14:00 | XYZ Inc     | Call    | Virtual    | |
+|   +--------------------------------------------+ |
+|                                                  |
+|   [Status Bar: Next appointment in X minutes]    |
++--------------------------------------------------+
+
+
+ToNote:
+This can be anything i want it doesn't really satisfy any requirements. Not a priority! 
+
+Componenets: 
