@@ -1,0 +1,45 @@
+Prio ==6==
+
+Reports Form (Requirement A7)
++--------------------------------------------------+
+|                  REPORTS                          |
+|--------------------------------------------------|
+| Select Report Type:                              |
+| +----------------------------------------------+ |
+| | ( ) Appointment Types by Month               | |
+| | ( ) Schedule for Each Consultant             | |
+| | ( ) Customer Appointment History             | |
+| +----------------------------------------------+ |
+|                                                  |
+| Report Parameters:                               |
+| +----------------------------------------------+ |
+| | Date Range: [Start Date] to [End Date]       | |
+| | Consultant: [All Consultants    v]           | |
+| | Customer:   [All Customers      v]           | |
+| +----------------------------------------------+ |
+|                                                  |
+| [Generate Report] [Export] [Print]               |
+|                                                  |
+| Report Results:                                  |
+| +--------------------------------------------+   |
+| | [Report content area - varies by type]     |   |
+| |                                            |   |
+| | Example: Appointment Types by Month        |   |
+| | Month    | Type         | Count           |   |
+| |----------|--------------|-----------------|   |
+| | January  | Consultation | 15              |   |
+| | January  | Follow-up    | 8               |   |
+| | February | Consultation | 12              |   |
+| |          |              |                 |   |
+| +--------------------------------------------+   |
+|                                                  |
+| [Back to Main Menu]                              |
++--------------------------------------------------+
+Components:
+
+RadioButtons: rbTypeByMonth, rbConsultantSchedule, rbCustomerHistory
+GroupBox: grpParameters
+DateTimePicker: dtpStartDate, dtpEndDate
+ComboBox: cboConsultant, cboCustomer
+DataGridView: dgvReportResults (or custom report viewer)
+Buttons: btnGenerate, btnExport, btnPrint
