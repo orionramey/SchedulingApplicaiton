@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace orionRameyC969
 {
-    public class Database
+    public static class Database
     {
+        # Maybe refactor to be a labmda? 
         public static MySqlConnection GetConnection()
         {
             string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
