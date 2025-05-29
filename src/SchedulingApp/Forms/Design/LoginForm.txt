@@ -1,0 +1,27 @@
+Login Form (Requirement A1)
++--------------------------------------------------+
+|                  LOGIN FORM                       |
+|                                                  |
+|          [Company Logo/Title]                    |
+|      Global Scheduling System                    |
+|                                                  |
+|   Username: [_________________________]         |
+|                                                  |
+|   Password: [_________________________]         |
+|                                                  |
+|          [  Login  ]  [ Cancel ]                |
+|                                                  |
+|   Current Location: [Auto-detected]              |
+|   Language: [English v] (Dropdown)               |
+|                                                  |
+|   [Error message area - hidden by default]       |
++--------------------------------------------------+
+
+Components:
+
+TextBox: txtUsername
+TextBox: txtPassword (PasswordChar = *)
+Button: btnLogin, btnCancel
+Label: lblLocation (shows detected location)
+ComboBox: cboLanguage (English/Français)
+Label: lblError (for validation messages)
