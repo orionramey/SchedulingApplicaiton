@@ -1,7 +1,7 @@
 # RoadMAP
 05/29
 Planning
-- [ ] Added READMEs to rel repos and design documents to add in component design or maybe placement? Just to get an idea for what the components will look like and what logic might entail. 
+- [x] Added READMEs to rel repos and design documents to add in component design or maybe placement? Just to get an idea for what the components will look like and what logic might entail. 
 
 ## Tobe done
 - [ ] Seat database with correct classes. 
